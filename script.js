@@ -83,7 +83,7 @@ const handleSubmit = async (e) => {
 
   try {
     // fetch data from server -> bot's response
-    const response = await fetch("https://vipin-ai-backend.onrender.com", {
+    const response = await fetch("http://localhost:5000", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
